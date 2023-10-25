@@ -11,7 +11,7 @@ BMI = round(RBMI, 1)
 
 # ---> Output <---
 
-print('Je hebt een BMI van', BMI)
+print(f'Je hebt een BMI van {BMI}')
 if BMI < 18.5: # ondergewicht
     print('Je hebt ondergewicht')
 elif BMI <= 25: # Normaal

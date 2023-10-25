@@ -18,4 +18,4 @@ Difference = Tijd_In_Min2 - Tijd_In_Min1
 
 Uur_Difference = math.floor(Difference / 60)
 Min_Difference = Difference % 60
-print(Uur_Difference, 'uur en', Min_Difference, 'minuten')
+print(f"{Uur_Difference} uur en {Min_Difference} minuten")

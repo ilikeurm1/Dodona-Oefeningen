@@ -5,4 +5,4 @@ if AgeD <= 2:
 else:
     AgeM = (AgeD - 2) * 4 + 21
     
-print('Een hond van', AgeD, 'jaar oud is', AgeM, 'jaar in mensenleeftijd')
+print(f'Een hond van {AgeD} jaar oud is {AgeM} jaar in mensenleeftijd')

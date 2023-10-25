@@ -8,7 +8,7 @@ if List_Type == 1:
             list.append(My_List, a)
         else:
             break
-elif List_Type == 2:
+else:
     while True:
         a = int(input())
         if a != -1:

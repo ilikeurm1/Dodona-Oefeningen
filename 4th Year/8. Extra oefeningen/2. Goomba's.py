@@ -5,4 +5,4 @@ TotaleAfstand = 2 * LK - A # enige berekening
 Snelheid = 1
 Tijd = int(TotaleAfstand / Snelheid)
 
-print("De laatste Goomba heeft na", Tijd, "minuten de kamer verlaten")
+print(f"De laatste Goomba heeft na {Tijd} minuten de kamer verlaten")

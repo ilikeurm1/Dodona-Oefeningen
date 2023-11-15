@@ -6,11 +6,10 @@ def IsWhite(x, y):
         if y in Black_y:
             return True
         return False  
-    if x not in Black_x:
+    else:
         if y in Black_y:
             return False
         return True
-    return None
 
 x1 = int(input())
 y1 = int(input())

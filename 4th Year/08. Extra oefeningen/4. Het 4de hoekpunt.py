@@ -1,22 +1,17 @@
 Points_x = []
 Points_y = []
 
-def Remove_Doubles_from(list):
-    for i in list:
-        Entries = list.count(i)
-        if Entries > 1:
-            list.remove(i)
-            list.remove(i)
-    return list
-    
 for i in range(3):
     x = int(input())
     y = int(input())
-    Points_x.append(x)
-    Points_y.append(y)
-
-Points_x = Remove_Doubles_from(Points_x)
-Points_y = Remove_Doubles_from(Points_y)
+    if x not in Points_x:
+        Points_x.append(x)
+    else: 
+        Points_x.remove(x)
+    if y not in Points_y:
+        Points_y.append(y)
+    else:
+        Points_y.remove(y)
 
 print(Points_x[0])
 print(Points_y[0])

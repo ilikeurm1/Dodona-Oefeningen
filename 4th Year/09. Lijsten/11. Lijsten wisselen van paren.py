@@ -1,7 +1,7 @@
 List = [9544, 2723, 3562, 9920, 9439, 1526, 5069, 5283, 5748, 9548, 9391, 3481]
 
 # def Swap(list, Swapped_Amount):
-#     if Swapped_Amount == len(list) / 2:
+#     if Swapped_Amount == len(list) // 2:
 #         return list
 #     First_element = list[Swapped_Amount * 2]
 #     Second_element = list[Swapped_Amount * 2 + 1]

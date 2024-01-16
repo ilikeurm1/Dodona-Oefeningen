@@ -1,4 +1,4 @@
-# Dodona Oef.
+# Dodona Oef
 
 ## What is this?
 

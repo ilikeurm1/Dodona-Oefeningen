@@ -1,6 +1,5 @@
 entries = int(input())
 
-row = []
 full = []
 
 for x in range(entries + 1):
@@ -8,12 +7,29 @@ for x in range(entries + 1):
 
 for x in range(entries):
     x = int(input())
-    row.append(x)
-
-for x in row:
     full.remove(x)
 
 print(full[0])
+
+
+# Heb onderstaande versie gemaakt then found this optimization
+
+# entries = int(input())
+
+# row = []
+# full = []
+
+# for x in range(entries + 1):
+#     full.append(x + 1)
+
+# for x in range(entries):
+#     x = int(input())
+#     row.append(x)
+
+# for x in row:
+#     full.remove(x)
+
+# print(full[0])
 
 # Heb onderstaande code eerst gemaakt maar dan beseft dat code hierboven ook kon
 

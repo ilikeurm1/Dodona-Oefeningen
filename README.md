@@ -16,6 +16,6 @@ Just look for the folder where your exercise is, find your exercise and look at 
 
 ## What is `Toetsen`?
 
-Toetsen is a folder where 4th year students can find the answers of the IT tests after the test is done, this sadly is not available for the 3rd years, as I don't have the answers to those tests.
+[Toetsen](/Toetsen) is a folder where 4th year students can find the answers of the IT tests after the test is done, this sadly is not available for the 3rd years, as I don't have the answers to those tests.
 
 This is also just a way to learn what the program is supposed to do, and not a way to cheat. These answers are only available after the test is done (to prevent students from cheating).

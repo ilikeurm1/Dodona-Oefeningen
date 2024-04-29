@@ -1,4 +1,6 @@
-Celsius = float(input("C"))
-Fahrenheit  = round(Celsius * 1.8 + 32, 2)
+C = float(input())
+print(f"{C} graden Celsius staat gelijk aan {round(C * 1.8 + 32, 2)} graden Fahrenheit")
 
-print(Celsius, "graden Celsius staat gelijk aan", Fahrenheit, "graden Fahrenheit")
+# C = float(input())
+# F = round(C * 1.8 + 32, 2)
+# print(f"{C} graden Celsius staat gelijk aan {F} graden Fahrenheit")

@@ -1,10 +1,9 @@
-import math
+from math import sqrt
+print (f"De derde zijde is {round(sqrt(int(input()) ** 2 + int(input()) ** 2), 2)}")
 
-x = int(input('lengte 1'))
-y = int(input('lengte 2'))
-L1 = math.pow(x, 2)
-L2 = math.pow(y, 2)
-z = (L1+L2)
-L3 = math.sqrt(z)
-
-print ("De derde zijde is", round(L3, 2))
+# from math import sqrt
+# x = int(input())
+# y = int(input())
+# z2 = x**2 + y**2
+# z = sqrt(z2)
+# print(round(z, 2))

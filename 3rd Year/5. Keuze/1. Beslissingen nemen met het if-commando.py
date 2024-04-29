@@ -1,5 +1,4 @@
-P = input("Uw wachtwoord: ")
-
+P = input()
 if len(P) == 8:
     print('uw wachtwoord is net lang genoeg')
 elif len(P) > 8:

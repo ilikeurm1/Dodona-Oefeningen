@@ -1,4 +1,5 @@
-naam = input("Uw naam?")
-leeftijd = int(input("Hoe oud ben je?"))
+print(f'{input()} is {int(input())} jaar oud')
 
-print(naam, "is" , leeftijd, "jaar oud")
+# name = input()
+# age = int(input())
+# print(f"{name} is {age} years old")

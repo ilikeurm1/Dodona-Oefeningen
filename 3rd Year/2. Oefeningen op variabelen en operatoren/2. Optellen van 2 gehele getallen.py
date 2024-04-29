@@ -1,4 +1,5 @@
-Getal1 = int(input("Getal1"))
-Getal2 = int(input("Getal2"))
+print(int(input()) + int(input()))
 
-print (Getal1 + Getal2)
+# x = int(input())
+# y = int(input())
+# print(x + y)

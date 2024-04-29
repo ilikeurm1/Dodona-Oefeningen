@@ -1,3 +1,4 @@
-Getal1 = 10
+print(10)
 
-print(Getal1)
+# N = 10
+# print(N)

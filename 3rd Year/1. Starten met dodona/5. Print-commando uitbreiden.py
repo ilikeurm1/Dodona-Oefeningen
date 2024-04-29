@@ -1,3 +1,4 @@
-naam_gebruiker = input("Welkom wat is je naam")
+print ("Welkom", input())
 
-print ("Welkom", naam_gebruiker)
+# name = input()
+# print(f"Welcome {name}")

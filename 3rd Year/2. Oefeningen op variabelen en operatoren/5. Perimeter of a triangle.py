@@ -1,5 +1,7 @@
-ZA = int(input("zijde a: "))
-ZB = int(input("zijde b: "))
-ZC = int(input("zijde c: "))
+print(sum(int(input()) for _ in range(3)))
 
-print(ZA + ZB + ZC)
+# x = int(input())
+# y = int(input())
+# z = int(input())
+
+# print(x + y + z)

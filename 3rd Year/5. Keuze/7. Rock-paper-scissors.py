@@ -1,35 +1,23 @@
-# ---> Variables <---
+player1 = input()
+player2 = input()
 
-Options = ['rock', 'paper', 'scissors']
-Worked = None # I just make this for checks
+if player1 == player2: # tie
+	print(f'tie')
 
-# ---> Inputs <---
+elif player1 == 'rock':
+	if player2 == 'paper':
+		print('player2 wins')
+	else:
+		print('player1 wins')
 
-player1 = input('RPC 1: ')
-player2 = input('RPC 2: ')
+elif player1 == 'paper':
+	if player2 == 'scissors':
+		print('player2 wins')
+	else:
+		print('player1 wins')
 
-# ---> Outputs <---
-
-if player1 in Options and player2 in Options:
-	Worked = True
-	if player1 == player2: # tie
-		print(f'tie')
-	elif player1 == 'rock':
-		if player2 == 'paper':
-			print('player2 wins')
-		else:
-			print('player1 wins')
-	elif player1 == 'paper':
-		if player2 == 'scissors':
-			print('player2 wins')
-		else:
-			print('player1 wins')
-	elif player1 == 'scissors':
-		if player2 == 'rock':
-			print('player2 wins')
-		else:
-			print('player1 wins')
-else:
-	Worked = False
-	if not Worked:
-			print('Invalid input')
+elif player1 == 'scissors':
+	if player2 == 'rock':
+		print('player2 wins')
+	else:
+		print('player1 wins')

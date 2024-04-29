@@ -1,3 +1,4 @@
-Getal1 = input("Getal hier")
+print(input())
 
-print(Getal1)
+# x= int(input(" Give me an integer: "))
+# print(x)

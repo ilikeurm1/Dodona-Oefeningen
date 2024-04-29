@@ -1,6 +1,6 @@
-N1 = int(input('number: '))
-N2 = int(input('number: '))
-N3 = int(input('number: '))
-numbers = [N1, N2, N3]
+print(f"{max(int(input()), int(input()), int(input()))} is het grootste getal")
 
-print(max(numbers), "is het grootste getal")
+x = int(input())
+y = int(input())
+z = int(input())
+print(max(x, y, z))

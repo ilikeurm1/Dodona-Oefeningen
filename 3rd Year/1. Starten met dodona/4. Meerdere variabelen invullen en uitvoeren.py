@@ -1,7 +1,8 @@
-getal1 = 12
-getal2 = 25
-getal3 = input("input")
-getal4 = input("input")
+print('12', '25' + '\n' + input(), input())
 
-print(getal1, getal2)
-print(getal3, getal4)
+# Getal1 = 12
+# Getal2 = 25
+# Getal3 = input("Give a number: ")
+# Getal4 = input("Give another number: ")
+# print(Getal1, Getal2)
+# print(Getal3, Getal4)

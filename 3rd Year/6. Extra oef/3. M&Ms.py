@@ -1,21 +1,14 @@
-# ---> Imports <---
+from math import pi, sqrt
+print(f"{round((round((int(input()) ** 2 * pi / 4) / 10 ** 6, 6) / round(sqrt(float(input()) * float(input()) / 3600), 2)) ** -1, 0)} m&m's")
 
-import math
-
-# ---> Variables <---
-
-Dia_MandM = int(input('What diameter does the M&M have?: '))
-Length_Human = float(input('Hoe groot is de persoon (in cm)?: '))
-Weight_Human = float(input('Hoe veel weegt de persoon (in kg)?: '))
-
-# ---> Calculations <---
-
-Opp_Human = round(math.sqrt((Length_Human * Weight_Human)/3600), 2)
-Opp_MandM = math.pow(Dia_MandM, 2) * math.pi / 4
-Opp_MandM_inM = round(Opp_MandM / math.pow(10, 6), 6)
-
-Amount_Of_MandM = round(Opp_Human / Opp_MandM_inM, 0)
-
-# ---> Output <---
-
-print(f"{Amount_Of_MandM} m&m's")
+# from math import pi, sqrt
+# Dia = int(input('What is the diameter of the MNM: '))
+# Human_Length = float(input('How tall is the human: '))
+# Human_Thiccness = float(input('How THICC is the human: '))
+# r = Dia / 2
+# r_squared_in_mm = pow(r, 2)
+# MnM_A_inMM = r_squared_in_mm * pi
+# MnM_A = round(MnM_A_inMM / 1000000, 6)
+# Human_A = round(sqrt((Human_Length * Human_Thiccness) / 3600), 2)
+# Amount_MnMs = round(Human_A / MnM_A, 0)
+# print(f"{Amount_MnMs} m&m's")

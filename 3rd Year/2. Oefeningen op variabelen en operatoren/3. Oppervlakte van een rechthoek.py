@@ -1,5 +1,7 @@
-lengte = int(input("lengte: "))
-hoogte = int(input("hoogte: "))
-A = lengte * hoogte
+l, h = int(input()), int(input())
+print(f"de oppervlakte van een rechthoek met als lengte {l} cm, en als hoogte {h} cm, heeft een oppervlakte van {l * h} cm²")
 
-print("de oppervlakte van een rechthoek met als lengte", lengte, "cm, en als hoogte", hoogte, "cm, heeft een oppervlakte van", A, "cm²")
+# l = int(input())
+# h = int(input())
+# A = l * h
+# print(f"de oppervlakte van een rechthoek met als lengte {l} cm, en als hoogte {h} cm, heeft een oppervlakte van {A} cm²")

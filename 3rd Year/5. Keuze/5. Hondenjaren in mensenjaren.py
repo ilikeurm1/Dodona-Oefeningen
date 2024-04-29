@@ -1,8 +1,8 @@
-AgeD = float(input('INput here'))
+D = float(input())
 
-if AgeD <= 2:
-    AgeM = AgeD * 10.5
+if D <= 2:
+    M = D * 10.5
 else:
-    AgeM = (AgeD - 2) * 4 + 21
+    M = (D - 2) * 4 + 21
     
-print('Een hond van', AgeD, 'jaar oud is', AgeM, 'jaar in mensenleeftijd')
+print(f'Een hond van {D} jaar oud is {M} jaar in mensenleeftijd')

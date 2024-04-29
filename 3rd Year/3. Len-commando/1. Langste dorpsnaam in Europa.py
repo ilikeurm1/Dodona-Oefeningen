@@ -1,4 +1,6 @@
-woord = str(input('ur mom is: '))
-length = len(woord)
+w = input()
+print(f"{w} bestaat uit {len(w)} tekens")
 
-print(woord, 'bestaat uit', length, 'tekens')
+# w = input()
+# l = len(w)
+# print(f"{w} bestaat uit {l} tekens")

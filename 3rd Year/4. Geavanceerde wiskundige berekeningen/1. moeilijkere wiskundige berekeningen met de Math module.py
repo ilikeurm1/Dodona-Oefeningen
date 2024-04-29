@@ -1,5 +1,7 @@
-import math
-x = int(input("getal: "))
-wortelx = math.sqrt(x)
+from math import sqrt, floor
+print(floor(sqrt(int(input()))))
 
-print (math.floor(wortelx))
+# from math import sqrt, floor
+# x = int(input())
+# s = sqrt(x)
+# print(floor(s))

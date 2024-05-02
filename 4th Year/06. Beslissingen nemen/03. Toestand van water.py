@@ -1,11 +1,12 @@
-TempC = float(input('temperature in C: '))
-TempF = TempC * 1.8 + 32
+C = float(input())
+print(f"{C} graden Celsius staat gelijk aan {round(C * 1.8 + 32, 2)} graden Fahrenheit")
 
-print(f'{TempC}graden Celsius staat gelijk aan {round(TempF, 2)} graden Fahrenheit')
-if TempC > 0 and TempC < 100: # vloeibaar
+if C > 0 and C < 100: # vloeibaar
     print('Het water is vloeibaar')
-elif TempC >= 100: # gas
+elif C >= 100: # gas
     print('Het water kookt')
 else: # vast
     print('Het water bevriest')
-    
+
+# C = float(input())
+# F = round(C * 1.8 + 32, 2)

@@ -1,5 +1,7 @@
-import math
+from math import sqrt, floor
+print(floor(sqrt(int(input()))))
 
-x = int(input())
-
-print(math.floor(math.sqrt(x)))
+# from math import sqrt, floor
+# x = int(input())
+# s = sqrt(x)
+# print(floor(s))

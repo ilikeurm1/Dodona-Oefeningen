@@ -1,6 +1,6 @@
-Name1 = input()
-Name2 = input()
-Same = ''
+Name1: str = input()
+Name2: str = input()
+Same: str = ''
 
 for letter in Name1:
     if letter in Name2:

@@ -12,8 +12,6 @@ for x in range(entries):
 print(full[0])
 
 
-# Heb onderstaande versie gemaakt then found this optimization
-
 # entries = int(input())
 
 # row = []
@@ -30,8 +28,6 @@ print(full[0])
 #     full.remove(x)
 
 # print(full[0])
-
-# Heb onderstaande code eerst gemaakt maar dan beseft dat code hierboven ook kon
 
 # entries = int(input())
 

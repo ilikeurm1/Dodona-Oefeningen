@@ -1,6 +1,5 @@
 Letter1 = str(input('Letter 1: ').upper())
 Letter2 = str(input('Letter 2: ').upper())
-# Result = None
 
 if Letter1 == 'A' and Letter2 == 'B':
     Result = 'AB'

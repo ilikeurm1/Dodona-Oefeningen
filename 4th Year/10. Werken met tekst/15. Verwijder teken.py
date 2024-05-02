@@ -1,4 +1,4 @@
-sentence = input()
+sentence: str = input()
 
 sentence = sentence.replace('@', '')
 

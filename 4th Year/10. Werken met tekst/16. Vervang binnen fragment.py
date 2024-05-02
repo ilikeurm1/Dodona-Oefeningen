@@ -1,8 +1,6 @@
-word = input()
+word: str = input()
 
-first = word.find('a')
-last = word.rfind('a')
+first: int = word.find('a')
+last: int = word.rfind('a')
 
-word = word[:first+1] + word[first+1:last].replace("a", "A") + word[last:]
-
-print(word)
+print(word[:first+1] + word[first+1:last].replace("a", "A") + word[last:])

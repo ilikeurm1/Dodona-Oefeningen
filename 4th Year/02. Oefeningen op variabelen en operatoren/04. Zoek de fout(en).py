@@ -1,4 +1,5 @@
-Getal1 = int(input("geef een getal :"))
-Getal2 = int(input("geef nog een getal: "))
+print(int(input()) + int(input()))
 
-print(Getal1 + Getal2)
+# x = int(input())
+# y = int(input())
+# print(x + y)

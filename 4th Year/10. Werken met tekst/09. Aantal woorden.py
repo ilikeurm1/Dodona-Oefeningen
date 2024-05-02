@@ -1,3 +1,3 @@
-words = input().split(" ")
+words = input().split()
 
 print(len(words))

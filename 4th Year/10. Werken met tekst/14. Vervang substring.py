@@ -1,5 +1,5 @@
-sentence = input()
-new = ""
+sentence: str = input()
+new: str = ""
 
 for x in sentence:
     if x == "1":

@@ -1,11 +1,11 @@
-List_Type = int(input())
-My_List = []
+List_Type: int = int(input())
+My_List: list[str] = []
 
 if List_Type == 1:
     while True:
         a = input()
         if a != "einde":
-            list.append(My_List, a)
+            My_List.append(a)
         else:
             break
 else:

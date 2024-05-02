@@ -1,22 +1,13 @@
-import random
-import math
+g: int = int(input())
+m: int = 1
+found: bool = False
 
-g = int(input())
+while 2 ** m <= g and not found:
+    r = g / 2 ** m
+    if r % 2 == 1:
+        print(m)
+        print(f'{r:.0f}')
+        found = True
+    m += 1
 
-amount = 0
-smallest_m = []
-smallest_r = []
-
-while True:
-    m = random.randint(0, 50)
-    r = random.randint(1, 50)
-    if g / r == math.pow(2, m) and r % 2 == 1:
-        list.append(smallest_m, m)
-        list.append(smallest_r, r)
-        break
-
-end_m = smallest_m[0]
-end_r = smallest_r[0]
-
-print(f"""{end_m}
-{end_r}""")
+print(0, g, sep='\n') if not found else ...

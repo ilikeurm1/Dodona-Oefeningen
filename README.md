@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This repository has all the answers to the exercises which have to be made by the 3rd and 4th years of the belgain school: `De Ring Leuven`.
+This repository has all the answers to the exercises on Dodona.
 
 This is not supposed to be used as a way to get the answer. But as a way to learn what the program is supposed to do.
 

@@ -1,11 +1,17 @@
 import math
 
+deg = float(input("Angle in degrees: "))
+rad = math.radians(deg)
+sin = math.sin(rad)
+cos = math.cos(rad)
+tan = math.tan(rad)
+back_to_deg = math.degrees(rad)
+
 print(
-    f"deg = {(deg := float(input('Angle in degrees: ')))}", "\r", 
-    "Angle in radians: ", f"{(rad := math.radians(deg)):.2f}", "\n", 
-    "sin: ", f"{math.sin(rad):.2f}", "\n", 
-    "cos: ", f"{math.cos(rad):.2f}", "\n", 
-    "tan: ", f"{math.tan(rad):.2f}", "\n", 
-    "back to deg: ", f"{math.degrees(rad):.2f}", 
-    sep=''
+    f"Angle in degrees: {deg}\n", 
+    f"Angle in radians: {rad:.2f}\n",
+    f"sin: {sin:.2f}\n",
+    f"cos: {cos:.2f}\n",
+    f"tan: {tan:.2f}\n",
+    f"back to deg: {back_to_deg:.2f}"
 )

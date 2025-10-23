@@ -36,7 +36,7 @@ log2 both sides
 
 """
 
-n = ceil(log2(Limit) - log2(mm))
+n = ceil(log2(Limit) - log2(mm)) # ceil to get the actual int fold amount and not a float
 
 print(f'De gewenste hoogte is bereikt na {n}x vouwen (h = {mm * 2**n})')
 

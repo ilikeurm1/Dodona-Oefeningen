@@ -5,14 +5,14 @@ Limit = float(input("Please input the height you want the paper to reach (in m):
 
 # While loop solution
 
-# folds = 0 # set folds to 0
+folds = 0 # set folds to 0
 
-# while mm < Limit:
-#     folds += 1 # add 1 fold
-#     mm *= 2 # Dubble thickness
-#     print(f'na {folds}x vouwen heb je een dikte van {mm} meter')
+while mm < Limit:
+    folds += 1 # add 1 fold
+    mm *= 2 # Dubble thickness
+    print(f'na {folds}x vouwen heb je een dikte van {mm} meter')
 
-# print(f'De gewenste hoogte is bereikt na {folds}x vouwen')
+print(f'De gewenste hoogte is bereikt na {folds}x vouwen')
 
 
 """
@@ -36,9 +36,9 @@ to reach 'at least' Limit height
 
 """
 
-n = ceil(log2(Limit) - log2(mm)) # Calculate the amount of folds
+# n = ceil(log2(Limit) - log2(mm)) # Calculate the amount of folds
 
-print(f'The wanted height is reached after {n}x folds (h = {mm * 2**n})')
+# print(f'De gewenste hoogte is bereikt na {n}x vouwen (h = {mm * 2**n})')
 
 # code to make the inbetween steps visible
 

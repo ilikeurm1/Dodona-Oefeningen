@@ -1,12 +1,7 @@
 from math import log2, ceil
 
-mm, Limit = input().split('/') # get input
-
-mm = float(mm) # convert to correct type
-Limit = int(Limit) # convert to correct type
-
-mm /= 1000 # set mm to m
-
+mm = float(input("Please input the thickness of the paper (in mm): ")) / 1000
+Limit = float(input("Please input the height you want the paper to reach (in m): "))
 
 # While loop solution
 
@@ -23,28 +18,33 @@ mm /= 1000 # set mm to m
 """
 Logarithm solution
 
-Formula:
+Vars:
 h(n) = Limit 
 h(0) = mm
 
+Formula:
 h(n) = h(0) * 2^n
 
-log2 both sides
+=> log2(h(n)) = log2(h(0)) + n
+=> log2(h(n)) - log2(h(0)) = n
 
-=> log2(hn) = log2(h0) + n
-=> log2(hn) - log2(h0) = n
+
+since n has to be an int
+as you can only fold paper an int amount of times
+ceil(n) gives us the actual minimum amount of folds
+to reach 'at least' Limit height
 
 """
 
-n = ceil(log2(Limit) - log2(mm)) # ceil to get the actual int fold amount and not a float
+n = ceil(log2(Limit) - log2(mm)) # Calculate the amount of folds
 
-print(f'De gewenste hoogte is bereikt na {n}x vouwen (h = {mm * 2**n})')
+print(f'The wanted height is reached after {n}x folds (h = {mm * 2**n})')
 
 # code to make the inbetween steps visible
 
 # while True:
-#     action = input("Which step do you want to know the height of? (num/q): ")
-#     if action == "q":
+#     action = input("Which step do you want to know the height of? (int/q): ")
+#     if action.lower() in ("q", "quit", "end", "break"):
 #         break
     
 #     try:
@@ -53,4 +53,4 @@ print(f'De gewenste hoogte is bereikt na {n}x vouwen (h = {mm * 2**n})')
 #         print("Please insert a number or 'q' to quit")
 #         continue
 
-#     print(f'na {action}x vouwen heb je een dikte van {mm * 2**action} meter')
+#     print(f'After {action}x folds the paper would be {mm * 2**action} meter thicc')

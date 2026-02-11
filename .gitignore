@@ -1,6 +1,15 @@
-.mypy_cache
-00. Better versions
-00. Nob versions
-13. SECRET FOLDER HAHA
-TESTING
-5th Year
+.mypy_cache/
+.vscode/
+__pycache__/
+
+5th Year/
+RANDOM/
+TESTING/
+
+00_Better_versions/
+00_Nob_versions/
+13_SECRET_FOLDER_HAHA/
+
+output/
+the-rusty-versions/
+the-plus-versions/

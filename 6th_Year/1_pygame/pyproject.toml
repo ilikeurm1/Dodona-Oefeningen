@@ -1,0 +1,10 @@
+[project]
+name = "1-pygame"
+version = "0.1.0"
+description = "Small pygame project for school"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.4.2",
+    "pygame @ file:///C:/Users/yeetl/Downloads/Coding/Projects/Python/School/Dodona/Dodona-Oefeningen/6th_Year/1_pygame/pygamewheel/pygame-2.6.1-pp311-pypy311_pp73-win_amd64.whl",
+]

@@ -1,7 +1,7 @@
 from math import log2, ceil
 
-mm = float(input("Please input the thickness of the paper (in mm): ")) / 1000
-Limit = float(input("Please input the height you want the paper to reach (in m): "))
+mm = eval(input("Please input the thickness of the paper (in mm): "), {}, {}) / 1000
+Limit = eval(input("Please input the height you want the paper to reach (in m): "), {}, {})
 
 # While loop solution
 
@@ -10,9 +10,9 @@ folds = 0 # set folds to 0
 while mm < Limit:
     folds += 1 # add 1 fold
     mm *= 2 # Dubble thickness
-    print(f'na {folds}x vouwen heb je een dikte van {mm} meter')
+    print(f'na {folds}x vouwen heb je een dikte van {round(mm, 4)} meter')
 
-print(f'De gewenste hoogte is bereikt na {folds}x vouwen')
+print(f'De gewenste hoogte ({Limit}m) is bereikt na {folds}x vouwen')
 
 
 """
@@ -36,9 +36,9 @@ to reach 'at least' Limit height
 
 """
 
-# n = ceil(log2(Limit) - log2(mm)) # Calculate the amount of folds
+n = ceil(log2(Limit) - log2(mm)) # Calculate the amount of folds
 
-# print(f'De gewenste hoogte is bereikt na {n}x vouwen (h = {mm * 2**n})')
+print(f'De gewenste hoogte is bereikt na {n}x vouwen (h = {mm * 2**n})')
 
 # code to make the inbetween steps visible
 
@@ -50,7 +50,7 @@ to reach 'at least' Limit height
 #     try:
 #         action = int(action)
 #     except ValueError:
-#         print("Please insert a number or 'q' to quit")
+#         print("Please insert a number or ('q', 'quit', 'end', 'break') to quit")
 #         continue
 
 #     print(f'After {action}x folds the paper would be {mm * 2**action} meter thicc')

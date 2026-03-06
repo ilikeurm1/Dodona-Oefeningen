@@ -13,3 +13,5 @@ TESTING/
 output/
 the-rusty-versions/
 the-plus-versions/
+
+*.json

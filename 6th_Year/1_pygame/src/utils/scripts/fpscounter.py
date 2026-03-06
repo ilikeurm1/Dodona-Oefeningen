@@ -9,7 +9,7 @@ class FPSCounter:
         surface: pg.Surface,
         font: pg.font.Font,
         clock: pg.time.Clock,
-        color: tuple[int, int, int],
+        color: tuple[int, int, int] | str,
         pos: tuple[int, int, int, int],
     ):
         self.surface = surface

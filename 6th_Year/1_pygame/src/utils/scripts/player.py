@@ -92,6 +92,7 @@ class Player:
 
         self.vx: float = 0.0
         self.vy: float = 0.0
+        self.score: int = 0
 
         self.controls = Player._CONTROLS[self.index]
 
@@ -140,8 +141,8 @@ class Player:
         if keys[ctrl["right"]]:
             self.vx += self.accel * dt
 
-        # Drag — exponential-decay approximation
-        decay = 1.0 - self.drag * dt
+        # Drag — true exponential decay (always positive; avoids sign-flip when drag*dt > 1)
+        decay = math.exp(-self.drag * dt)
         self.vx *= decay
         self.vy *= decay
 

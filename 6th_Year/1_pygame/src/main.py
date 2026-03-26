@@ -67,7 +67,7 @@ def main():
 
     # Game constants
     player_radius = 30
-    food_size = player_radius // 2
+    food_size = 10
     FOOD_PER_PLAYER = 5
 
     # Mutable game state
